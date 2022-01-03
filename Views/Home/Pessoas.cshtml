@@ -1,0 +1,13 @@
+﻿@model List<ConsumindoRestAPI.Models.Pessoa>
+
+@{
+
+}
+
+@foreach (var pessoa in @Model)
+{
+    @*<a href="@Url.Action("PessoaId","Home", @pessoa.id)">
+    </a>*@
+        <strong>@pessoa.nome</strong>
+    <br />
+}

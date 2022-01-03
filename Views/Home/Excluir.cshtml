@@ -1,0 +1,15 @@
+﻿@using ConsumindoRestAPI.Models;
+@model ConsumindoRestAPI.Models.Pessoa
+
+@{
+}
+
+@using (Html.BeginForm("Excluir", "Home", FormMethod.Post))
+{
+    ID:
+    <br />
+    @Html.TextBoxFor(p=>p.id)
+    <br />
+    <br />
+    <input type="submit" value="Excluir"/>
+}

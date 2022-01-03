@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <header>
+            <a href="/">Home</a>
+            <a href="@Url.Action("Cadastrar", "Home")" >Cadastrar</a>
+            <a href="@Url.Action("Alterar", "Home")" >Alterar</a>
+            <a href="@Url.Action("Excluir", "Home")" >Excluir</a>
+            <a href="@Url.Action("Pessoas", "Home")" >Pessoas</a>
+            <a href="@Url.Action("Sobre","Home")" >Sobre mim</a>
+            <hr />
+        </header>
+
+        @RenderBody()
+
+        <footer>
+            <hr />
+            Atos UFN .Net 2021-2
+        </footer>
+    </body>
+</html>

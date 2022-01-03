@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PpNi2yDT26objbm4rsGCBdSZD+WuHwIHit/Eh1NdOlInQUniY24swj+7mLA7cCwnSEy0iCQCGlzhXUIlTY6/cg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fabri\\source\\repos\\ConsumindoRestAPI\\ConsumindoRestAPI\\ConsumindoRestAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fabri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

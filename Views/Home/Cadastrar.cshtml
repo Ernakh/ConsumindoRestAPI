@@ -1,0 +1,15 @@
+﻿@using ConsumindoRestAPI.Models;
+@model ConsumindoRestAPI.Models.Pessoa
+
+@{
+}
+
+@using (Html.BeginForm("Cadastrar", "Home", FormMethod.Post))
+{
+    Nome:
+    <br />
+    @Html.TextBoxFor(p=>p.nome)
+    <br />
+    <br />
+    <input type="submit" value="Cadastrar"/>
+}
